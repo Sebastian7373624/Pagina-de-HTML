@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias sobre Videojuegos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header style="background-image: url('assets/Images/pixel-art-vieja-consola-videojuegos-fondo-paisaje-estilo-retro-juego-8-bits-ai_985124-2116.jpg');">
+        <div class="header-content">
+            <h1>Noticias de Videojuegos</h1>
+            <img src="assets/Images/ptb6z7qa3cwv.jpg" alt="Logo" class="logo">
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank">
+                <img src="assets/Images/Facebook_Logo_(2019).png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="assets/Images/2ba717ac010d3b9f8d26e9db4da291b8.jpg" alt="Twitter" class="social-icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="assets/Images/Instagram_icon.png.webp" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </header>
+
+    <div class="news-grid">
+        <div class="news-section">
+            <h2>Dragon Ball Sparking! ZERO</h2>
+            <img id="image-preview-1" src="assets/Images/dragon-ball-sparking-zero_4mc6.jpg" alt="Dragon Ball Sparking ZERO">
+            <p>El juego Rompe Controles Vuelve a la Acción</p>
+            <p>El acceso anticipado a Dragon Ball Sparking! ZERO comenzará el lunes, 7 de octubre, a las 4:00 PM, hora de la Ciudad de Bogota.
+                Ten en cuenta que el juego debutará oficialmente el 11 de octubre, por lo que tendrás 4 días de acceso anticipado.</p>
+            <p>Para tener acceso anticipado lo único que necesitas es apartar la Deluxe Ultimate Edition o la Sound Ultimate Edition.</p>
+        </div>
+
+        <div class="news-section">
+            <h2>Estudio de Outlast es víctima de hackeo</h2>
+            <img id="image-preview-2" src="assets/Images/descargar.jfif" alt="Outlast Hackeo">
+            <p>Red Barrels, estudio de Outlast, fue blanco de un ataque informático. Robaron 1.8 TB de información, incluyendo el código fuente de sus juegos.</p>
+            <p>Esto causará retrasos significativos en el cronograma de producción del estudioLos hackeos siguen a la orden del día en la industria. Ahora Red Barrels,
+                estudio de Outlast, tuvo la mala suerte de ser blanco de un ataque con importantes consecuencias. Por medio de un comunicado, la compañía confirmó que alguien vulneró sus sistemas informáticos y robó información.
+                De acuerdo con los detalles, el atacante sustrajo el código fuente de sus juegos y 1.8 TB de información. Red Barrels actuó al instante y tomó medidas al respecto, pero no pudo evitar los daños. Hizo una investigación para determinar el alcance del hackeo y hay malas noticias.</p>
+        </div>
+
+        <div class="news-section">
+            <h2>PS Plus dispara la popularidad de The Last of Us: Part I</h2>
+            <img id="image-preview-3" src="assets/Images/1366_2000.jpeg" alt="The Last of Us: Part I">
+            <p>The Last of Us: Part I está en uno de sus mejores momentos. El lanzamiento en PlayStation Plus ha disparado el número de jugadores en más de un 1200%.</p>
+            <p>El juego sigue siendo extremadamente popular a pesar de las críticas iniciales sobre su necesidad Gracias a esto, la remasterización ya es uno de los lanzamientos más exitosos del servicio en lo que va del año. A pesar de ser un título que ya muchos disfrutaron, se convirtió en el tercer juego con más impacto en PlayStation Plus durante 2024.
+                Por ahora, únicamente es superado por Dave the Diver y The Plucky Squire, estrenos recientes que ocupan la primera y la segunda posición, respectivamente.
+                También sabemos que The Last of Us: Part I es el noveno título más destacado de la plataforma de suscripción.
+                La noticia puede que sorprenda a más de un jugador, pues The Last of Us: Part I recibió algunas críticas ya que, para muchos,
+                era un lanzamiento innecesario. A pesar de esto, sus cifras en PlayStation Plus deja claro que la popularidad de la franquicia no ha decaído a pesar del paso de los años..</p>
+        </div>
+
+        <div class="news-section">
+            <h2>Overwatch 2 presenta a Juno</h2>
+            <img id="image-preview-4" src="assets/Images/overwatch2temporada12.jpg" alt="Overwatch 2 Juno">
+            <p>Overwatch 2 presenta a Juno, el nuevo héroe de soporte cuyo set de habilidades está diseñado para ayudar a sus compañeros de equipo.</p>
+            <p>Su Mediblaster cura aliados y daña a enemigos. Juno estará disponible en la próxima actualización.
+                Hay novedades para los jugadores de Overwatch 2, y es que desde este viernes 19 de julio podrán jugar con Juno en una prueba de héroe por tiempo limitado hasta el 21 de julio.
+                Juno es la nueva heroína de apoyo de Overwatch 2 y estará disponible para elegir en todos los modos, a excepción del juego competitivo
+                Actualizacion reciente: ya se encuentra en el modo competitivo y esta mas rota que Mercy en el area de curacion de area</p>
+        </div>
+    </div>
+
+    <script>
+        function setImageUrl(previewId, url, maxWidth, height) {
+            const img = document.getElementById(previewId);
+            img.src = url;
+            img.style.maxWidth = maxWidth;
+            img.style.height = height;
+        }
+
+        setImageUrl('image-preview-1', 'assets/Images/sparkin.avif', '600px', '330px');
+        setImageUrl('image-preview-2', 'assets/Images/descargar.jfif', '600px', '350px');
+        setImageUrl('image-preview-3', 'assets/Images/1366_2000.jpeg', '600px', '350px');
+        setImageUrl('image-preview-4', 'assets/Images/overwatch2temporada12.jpg', '600px', '350px');
+    </script>
+
+</body>
+</html>
